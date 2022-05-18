@@ -1,6 +1,6 @@
-package br.com.dio.Java_Fundamental;
+package br.com.dio.javafundamental;
 
-public class operadoresAritimeticos {
+public class OperadoresAritimeticos {
     public static void main(String[] args) {
         /*pós-fixado: exp++ ou exp--
         * prefixado: ++exp ou --exp*/

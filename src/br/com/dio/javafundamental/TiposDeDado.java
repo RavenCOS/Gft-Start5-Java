@@ -1,6 +1,6 @@
-package br.com.dio.Java_Fundamental;
+package br.com.dio.javafundamental;
 
-public class tiposdeDado {
+public class TiposDeDado {
     public static void main(String[] args) {
         /*Byte: de -128 até 127*/
             byte a = -128;

@@ -1,6 +1,6 @@
-package br.com.dio.Java_Fundamental;
+package br.com.dio.javafundamental;
 
-public class declarandoVariaveis {
+public class DeclarandoVariaveis {
     public static void main(String[] args) {
         //Exemplo de Boas Práticas:
         int i;
