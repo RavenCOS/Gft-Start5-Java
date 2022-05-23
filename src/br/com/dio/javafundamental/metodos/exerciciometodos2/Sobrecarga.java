@@ -1,4 +1,4 @@
-package br.com.dio.javafundamental.exerciciometodos2;
+package br.com.dio.javafundamental.metodos.exerciciometodos2;
 
 public class Sobrecarga {
     public static void area(double raio) {

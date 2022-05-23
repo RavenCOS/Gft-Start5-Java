@@ -1,6 +1,6 @@
-package br.com.dio.javafundamental.exerciciometodos2;
+package br.com.dio.javafundamental.metodos.exerciciometodos2;
 
-import static br.com.dio.javafundamental.exerciciometodos2.Sobrecarga.area;
+import static br.com.dio.javafundamental.metodos.exerciciometodos2.Sobrecarga.area;
 
 public class Main {
     public static void main(String[] args) {

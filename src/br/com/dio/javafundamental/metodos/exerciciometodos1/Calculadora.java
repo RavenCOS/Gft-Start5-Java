@@ -1,4 +1,4 @@
-package br.com.dio.javafundamental.exerciciometodos1;
+package br.com.dio.javafundamental.metodos.exerciciometodos1;
 
 public class Calculadora {
     public static void soma(int a , int b) {

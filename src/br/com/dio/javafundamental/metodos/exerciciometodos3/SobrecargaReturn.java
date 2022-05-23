@@ -1,4 +1,4 @@
-package br.com.dio.javafundamental.exerciciometodos3;
+package br.com.dio.javafundamental.metodos.exerciciometodos3;
 
 public class SobrecargaReturn {
     public static double area(double raio) {

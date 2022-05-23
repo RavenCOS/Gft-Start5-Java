@@ -1,6 +1,6 @@
-package br.com.dio.javafundamental.exerciciometodos3;
+package br.com.dio.javafundamental.metodos.exerciciometodos3;
 
-import static br.com.dio.javafundamental.exerciciometodos3.SobrecargaReturn.area;
+import static br.com.dio.javafundamental.metodos.exerciciometodos3.SobrecargaReturn.area;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package br.com.dio.javafundamental.exerciciometodos1;
+package br.com.dio.javafundamental.metodos.exerciciometodos1;
 
 import java.util.Scanner;
 
