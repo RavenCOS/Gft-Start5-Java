@@ -6,10 +6,8 @@ public class FaixasEtarias {
     public static String checkIdade(int i) {
         if (i < 10) {
             return "criança";
-        } else if (i >= 10 && i < 15) {
-            return "pre-adolescênte";
-        } else if (i >= 15 && i < 18) {
-            return "adolescênte";
+        } else if (i >= 10 && i < 18) {
+            return "jovem";
         } else if (i >= 18 && i < 40) {
             return "adulta";
         } else if (i >= 40 && i < 60) {
@@ -18,12 +16,20 @@ public class FaixasEtarias {
     }
 
     public static void faixaEtariaFilme(String faixaEtaria, int filme) {
-        if (faixaEtaria != "criança" && faixaEtaria != "pre-adolescênte"  && filme == 2) {
-            System.out.println("Essa pessoa poderá assistir ao filme");
-        } else if (faixaEtaria == "adulta" || faixaEtaria == "meia idade" || faixaEtaria == "idosa" && filme == 3){
-            System.out.println("Essa pessoa poderá assistir ao filme");
-        } else {
-            System.out.println("Essa pessoa está abaixo da faixa etária permitida");
+        switch (filme){
+            case 2:
+                switch (faixaEtaria) {
+                    case "jovem", "adulta", "idosa", "meia idade" ->
+                            System.out.println("Essa pessoa poderá assistir ao filme");
+                    default -> System.out.println("Essa pessoa está abaixo da faixa etária permitida");
+                }
+                break;
+            case 3:
+                switch (faixaEtaria) {
+                    case "adulta", "idosa", "meia idade" -> System.out.println("Essa pessoa poderá assistir ao filme");
+                    default -> System.out.println("Essa pessoa está abaixo da faixa etária permitida");
+                }
+                break;
         }
     }
 
@@ -39,6 +45,7 @@ public class FaixasEtarias {
         switch (filme) {
             case 1 -> System.out.println("O filme é livre para todos os públicos");
             case 2, 3 -> faixaEtariaFilme(faixaEtaria, filme);
+            default -> System.out.println("erro, opção inválida");
         }
     }
 }
