@@ -1,4 +1,4 @@
-package br.com.dio.javafundamental.operadoresrelacionais.exercicio1;
+package br.com.dio.javafundamental.operadoresrelacionais;
 
 import java.util.Scanner;
 
