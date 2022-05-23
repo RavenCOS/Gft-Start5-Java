@@ -12,11 +12,11 @@ public class TiposDeDado {
             int e = -2147483648;
             int f = 2147483647;
         /*long, float e double: muito longo
-        long, float e double são representados usando L,F e D respectivamente, colocados ao final do número
+        long, float e double são representados usando L,f e d respectivamente, colocados ao final do número
         uma váriavel com um número real que não possui atribuição, sempre sera entendida pela linguagem como double*/
             long g = 1983718237890714897L;
-            float h = 123.87F;
-            double i = 3.14159D;
+            float h = 123.87f;
+            double i = 3.14159d;
         /*char: */
             char j = 'a';
             char k = '\u0049';
